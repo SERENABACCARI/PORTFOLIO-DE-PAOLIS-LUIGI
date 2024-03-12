@@ -1,17 +1,23 @@
 import React from "react";
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import img from "../immagini/img.jpg";
 
 
 function BasicExample() {
     return (
-        <Card style={{  }}>
+        <Card style={{ display: "flex", flexDirection: "row", justifyContent: "space-between" }}>
+            <div className="container"> 
             <div className="row">
                 <div className="col 6">
-                    <Card.Img  src="portfolio/src/immagini/VR-2248.jpg" />
-                    </div>
+                    <img className="imgHome" alt="immagine home" src={img} />
+                </div>
             </div>
-            <div className="row">
+                
+                </div>
+
+            <div className="container">
+                <div className="row">
                 <div className="col 6">
                     <Card.Body>
                         <Card.Title>De Paolis Luigi</Card.Title>
@@ -21,8 +27,10 @@ function BasicExample() {
                         </Card.Text>
                         <Button variant="primary">Go somewhere</Button>
                     </Card.Body>
-                </div>
+                </div></div>
+
             </div>
+           
             
         </Card>
     );
