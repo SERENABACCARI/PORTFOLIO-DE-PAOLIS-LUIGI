@@ -3,7 +3,15 @@ import React from "react";
 
 function Home() {
     return (
-        <h1>contact</h1> 
+        
+        <div className="container">
+            <div className="row">
+                <div className="col">
+                    <h1>contatti</h1>
+                    
+                </div>
+            </div>
+        </div>
     )
 
 }
