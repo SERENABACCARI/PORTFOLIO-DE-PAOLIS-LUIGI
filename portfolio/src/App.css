@@ -1,3 +1,28 @@
+body{
+    background-color: rgb(15, 14, 14);
+   cursor: pointer;
+   
+
+}
+
+
+
+.ContainerNav{
+    font-size: xx-large;
+   
+    
+   }
+
+.containerHome{
+    display: flex;
+    justify-content: center;
+    margin-top: 20rem;
+    
+}
+
+
+
 .imgHome{
     width: 100%;
 }
+

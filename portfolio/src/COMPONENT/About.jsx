@@ -6,8 +6,8 @@ import img from "../immagini/img.jpg";
 
 function BasicExample() {
     return (
-        <Card style={{ display: "flex", flexDirection: "row", justifyContent: "space-between" }}>
-            <div className="container">
+        <Card style={{ display: "flex", flexDirection: "row", justifyContent: "space-between",backgroundColor:"transparent" }}>
+            <div className="container" >
                 <div className="row">
                     <div className="col 6">
                         <img className="imgHome" alt="immagine home" src={img} />
@@ -20,7 +20,7 @@ function BasicExample() {
                 <div className="row">
                     <div className="col 6">
                         <Card.Body>
-                            <Card.Title>De Paolis Luigi</Card.Title>
+                            <Card.Title style={{fontcolor:"white"}}>De Paolis Luigi</Card.Title>
                             <Card.Text>
                                 Some quick example text to build on the card title and make up the
                                 bulk of the card's content.
