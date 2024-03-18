@@ -6,6 +6,8 @@ import Navbar from '../src/COMPONENT/Navbar.jsx';
 import Home from '../src/COMPONENT/Home.jsx';
 import About from '../src/COMPONENT/About.jsx';
 import Contact from '../src/COMPONENT/Contact.jsx';
+import Footer from './COMPONENT/footer.jsx';
+
 
 function App() {
   return (
@@ -19,6 +21,7 @@ function App() {
         </Routes>
 
       </div>
+      <Footer></Footer>
     </Router>
   );
 }

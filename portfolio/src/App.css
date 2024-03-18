@@ -26,3 +26,31 @@ body{
     width: 100%;
 }
 
+  /*FOOTER*/
+
+.footer{
+    margin-top: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: antiquewhite;
+}
+
+/*CONTATTI*/
+
+.container-contact{
+    margin-top: 20rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: antiquewhite;
+}
+
+
+/*LOGO*/
+.LOGO{
+    width:80px;
+    display: flex;
+    align-items: center;
+    
+}
