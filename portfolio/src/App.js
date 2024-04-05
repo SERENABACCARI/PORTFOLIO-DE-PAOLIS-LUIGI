@@ -7,6 +7,7 @@ import Home from '../src/COMPONENT/Home.jsx';
 import About from '../src/COMPONENT/About.jsx';
 import Contact from '../src/COMPONENT/Contact.jsx';
 import Footer from './COMPONENT/footer.jsx';
+import Sidebar from './COMPONENT/Sidebar.jsx';
 
 
 function App() {
@@ -14,6 +15,8 @@ function App() {
     <Router>
       <div>
         <Navbar />
+        <Sidebar />
+        
         <Routes>
           <Route path="/" element={<Home />}/>
           <Route path= "About" element={ <About/>}/>
