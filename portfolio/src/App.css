@@ -1,35 +1,50 @@
-body{
+body {
     background-color: rgb(15, 14, 14);
-   cursor: pointer;
-   
+    cursor: pointer;
+
 
 }
 
+/*navbar*/
 
-
-.ContainerNav{
+.ContainerNav {
     font-size: xx-large;
-   
-    
-   }
+    width: 250px;
+    /* Larghezza della sidebar */
+    height: 150vh;
+    /* Altezza della sidebar che si estende fino al bordo inferiore del viewport */
+    background-color: #1e1e1e;
+    /* Colore di sfondo della sidebar */
+    position: absolute;
+    /* La sidebar resta fissa anche durante lo scroll */
+    top: 0;
+    /* La sidebar inizia dall'alto della pagina */
+    left: 0;
+    /* La sidebar inizia dal lato sinistro della pagina */
+    overflow-y: auto;
+    /* Aggiungi barra di scorrimento verticale se il contenuto è più grande dello spazio disponibile */
 
-.containerHome{
+
+
+}
+
+.containerHome {
     display: flex;
     justify-content: center;
     margin-top: 20rem;
-    
+
 }
 
 
 
-.imgHome{
+.imgHome {
     width: 100%;
 }
 
-  /*FOOTER*/
+/*FOOTER*/
 
-.footer{
-    margin-top: 20rem;
+.footer {
+    margin-top: 50rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -38,7 +53,7 @@ body{
 
 /*CONTATTI*/
 
-.container-contact{
+.container-contact {
     margin-top: 20rem;
     display: flex;
     align-items: center;
@@ -48,16 +63,9 @@ body{
 
 
 /*LOGO*/
-.LOGO{
-    width:80px;
+.LOGO {
+    width: 80px;
     display: flex;
     align-items: center;
-    
-}
 
-
-.sidebar {
-    width: 250px;
-    background-color: #f0f0f0;
-    padding: 20px;
 }
