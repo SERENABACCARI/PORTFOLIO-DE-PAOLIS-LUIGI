@@ -10,19 +10,6 @@ body {
 .ContainerNav {
     font-size: xx-large;
     width: 250px;
-    /* Larghezza della sidebar */
-    height: 150vh;
-    /* Altezza della sidebar che si estende fino al bordo inferiore del viewport */
-    background-color: #1e1e1e;
-    /* Colore di sfondo della sidebar */
-    position: absolute;
-    /* La sidebar resta fissa anche durante lo scroll */
-    top: 0;
-    /* La sidebar inizia dall'alto della pagina */
-    left: 0;
-    /* La sidebar inizia dal lato sinistro della pagina */
-    overflow-y: auto;
-    /* Aggiungi barra di scorrimento verticale se il contenuto è più grande dello spazio disponibile */
 
 
 

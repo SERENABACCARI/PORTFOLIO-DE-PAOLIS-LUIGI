@@ -12,19 +12,21 @@ import Footer from './COMPONENT/footer.jsx';
 
 function App() {
   return (
-    <Router>
-      <div>
-        <Navbar />
-        
-        <Routes>
-          <Route path="/" element={<Home />}/>
-          <Route path= "About" element={ <About/>}/>
-          <Route path="contact" element={<Contact />} />
-        </Routes>
 
-      </div>
-      <Footer></Footer>
-    </Router>
+    
+     <Router>
+       <div>
+         
+         <Navbar />
+         <Routes>
+           <Route path="/" element={<Home />}/>
+           <Route path= "About" element={ <About/>}/>
+           <Route path="contact" element={<Contact />} />
+         </Routes>
+ 
+       </div>
+       <Footer></Footer>
+     </Router>
   );
 }
 
